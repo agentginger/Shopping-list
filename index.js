@@ -31,3 +31,4 @@ console.log(`${shoppingListPre}${listAsString}${shoppingListPost}`);
 //ToDo
 //Create alt shopping list whereby shoppingListPre and shoppingListPost are added using array methods push and unshift
 //Work out how to add an item to the shopping list at any index.
+//Create HTML elements to show list without writing any HTML.
