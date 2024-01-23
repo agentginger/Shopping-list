@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>HTML 5 Boilerplate</title>
+    <link rel="stylesheet" href="styles/styles.css">
+  </head>
+  <body>
+
+  <div class ="container">
+    <h1>Hello world</h1>
+  </div>
+  
+  <div class="line-break"> </div>
+
+  <h2> Trying to write JS on my phone at work so i get more practice</h2>
+
+  <p>
+   Battery before work: 61%
+  </p>
+
+  <p>
+     Battery after work: 31% &#128533;
+  </p>
+
+	<script>
+
+const oldIntroductionStart = " My name is";
+const oldMyName = " Rufus";
+
+const oldFullIntro = oldIntroductionStart + oldMyName;
+
+console.log("Hello" + oldFullIntro);
+
+const newIntroductionStart = " my name is ";
+const newMyName = "Rufus";
+
+console.log(`Hello${newIntroductionStart}${newMyName}`);
+
+//Shopping list time
+//Adding two strings with an array
+
+const shoppingList = ["chocolate", " cereals", " vegetables", " turkey breast"];
+
+shoppingList.push(" and ice cream");
+
+const listAsString = shoppingList.join();
+
+const shoppingListPre = "I need to pickup ";
+
+const shoppingListPost = " from the supermache";
+
+console.log(`${shoppingListPre}${listAsString}${shoppingListPost}`);
+
+// console.log(`${shoppingListPre} shoppingList.join() ${shoppingListPost}`);
+// Above deliberatly doesnt work but Id like to know why.
+
+//ToDo
+//Work out how to add an item to the shopping list at any index.
+
+  </script>
+  </body>
+</html>
