@@ -25,8 +25,8 @@ const shoppingListPost = " from the supermarch\xE9.";
 console.log(`${shoppingListPre}${listAsString}${shoppingListPost}`);
 
 
-// console.log(`${shoppingListPre} shoppingList.join() ${shoppingListPost}`);
-// Above deliberatly doesnt work but Id like to know why.
+// console.log(`${shoppingListPre}${shoppingList.join()}${shoppingListPost}`);
+// Above now works fine.
 
 //ToDo
 //Create alt shopping list whereby shoppingListPre and shoppingListPost are added using array methods push and unshift
